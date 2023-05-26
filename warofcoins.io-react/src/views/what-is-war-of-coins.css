@@ -1,0 +1,148 @@
+.what-is-war-of-coins-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.what-is-war-of-coins-container1 {
+  width: 88%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.what-is-war-of-coins-text {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 4rem;
+  align-self: flex-start;
+  font-family: Unbounded;
+  font-weight: 900;
+  line-height: 1.15;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.what-is-war-of-coins-container2 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.what-is-war-of-coins-text01 {
+  padding: var(--dl-space-space-halfunit);
+  align-self: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.what-is-war-of-coins-text02 {
+  padding: var(--dl-space-space-halfunit);
+  align-self: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.what-is-war-of-coins-link {
+  text-decoration: underline;
+}
+.what-is-war-of-coins-container3 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.what-is-war-of-coins-text05 {
+  padding: var(--dl-space-space-halfunit);
+  align-self: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  padding-bottom: 8px;
+}
+.what-is-war-of-coins-text06 {
+  padding: var(--dl-space-space-halfunit);
+  font-size: 16px;
+  align-self: flex-start;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.what-is-war-of-coins-text07 {
+  line-height: 1;
+}
+.what-is-war-of-coins-text09 {
+  line-height: 1;
+}
+.what-is-war-of-coins-text12 {
+  line-height: 1;
+}
+.what-is-war-of-coins-text15 {
+  line-height: 1;
+}
+.what-is-war-of-coins-text18 {
+  line-height: 1;
+}
+@media(max-width: 1200px) {
+  .what-is-war-of-coins-container1 {
+    width: 95%;
+  }
+  .what-is-war-of-coins-text {
+    font-size: 4rem;
+  }
+}
+@media(max-width: 991px) {
+  .what-is-war-of-coins-text {
+    font-size: 3rem;
+  }
+  .what-is-war-of-coins-container2 {
+    width: 90%;
+  }
+  .what-is-war-of-coins-container3 {
+    width: 90%;
+  }
+}
+@media(max-width: 479px) {
+  .what-is-war-of-coins-text {
+    font-size: 2.5rem;
+    align-self: center;
+    text-align: center;
+  }
+  .what-is-war-of-coins-container2 {
+    width: 90%;
+  }
+  .what-is-war-of-coins-text01 {
+    padding: var(--dl-space-space-halfunit);
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .what-is-war-of-coins-text02 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .what-is-war-of-coins-container3 {
+    width: 90%;
+  }
+  .what-is-war-of-coins-text05 {
+    padding: var(--dl-space-space-halfunit);
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .what-is-war-of-coins-text06 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+}
